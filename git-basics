@@ -1,0 +1,25 @@
+open git bash in the folder you want to create a new project
+
+## Important Git commands
+
+git clone <url>  ## downloads folder from git into the folder on desktop
+
+## if the original git folder belongs to someone else, first fork the folder into your git repo and then clone
+## directly cloning will create a problem since changes can be pushed only into yor github repo. Once that is done you have to make a pull request for the admin to merge into main branch
+
+## after making any changes
+
+Step 1:
+
+git add "file name.extension" ## add file into staging
+
+git add -A 					  ## add all changed files into staging
+
+
+Step 2:
+
+git commit -m "Message" ## commit changes to staging with message; message is mandatory. Not passing a message will force open a new message window!!
+
+step 3
+
+git push origin master  ## push changes to master branch in you own github repo
